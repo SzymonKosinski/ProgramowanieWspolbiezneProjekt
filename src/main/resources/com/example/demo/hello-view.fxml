@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloControler">
+   <children>
+      <Slider fx:id="predkoscAnimacji" layoutX="70.0" layoutY="388.0" max="5000.0" min="10.0" onMouseReleased="#onSliderChanged" orientation="VERTICAL" value="1000.0" />
+      <Text layoutX="27.0" layoutY="559.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Czas Animacji" wrappingWidth="100.35195922851562" />
+      <Slider fx:id="predkoscProdukcji" layoutX="181.0" layoutY="381.0" max="5000.0" min="10.0" onMouseReleased="#onSliderChanged" orientation="VERTICAL" value="1000.0" />
+      <Slider fx:id="ciezarowka" layoutX="306.0" layoutY="381.0" max="50.0" min="3.0" onMouseReleased="#onSliderChanged" orientation="VERTICAL" value="5.0" />
+      <Slider fx:id="pojemnosc" layoutX="459.0" layoutY="381.0" min="5.0" onMouseReleased="#onSliderChanged" orientation="VERTICAL" value="10.0" />
+      <Slider fx:id="udzwig" layoutX="581.0" layoutY="381.0" max="250.0" min="10.0" onMouseReleased="#onSliderChanged" orientation="VERTICAL" value="30.0" />
+      <Text layoutX="138.0" layoutY="558.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Czas produkcji cegly" wrappingWidth="100.35195922851562" />
+      <Text layoutX="277.0" layoutY="566.0" strokeType="OUTSIDE" strokeWidth="0.0" text="limit ciezarowki" wrappingWidth="100.35195922851562" />
+      <Text layoutX="409.0" layoutY="565.0" strokeType="OUTSIDE" strokeWidth="0.0" text="pojemnosc tasmy" wrappingWidth="100.35195922851562" />
+      <Text layoutX="545.0" layoutY="556.0" strokeType="OUTSIDE" strokeWidth="0.0" text="maksymalny udźwig taśmy" wrappingWidth="100.35195922851562" />
+   </children>
+</AnchorPane>
